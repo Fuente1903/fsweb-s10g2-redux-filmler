@@ -10,6 +10,10 @@ import MovieHeader from './components/MovieHeader';
 import AddMovieForm from './components/AddMovieForm';
 import FavoriteMovieList from './components/FavoriteMovieList';
 
+import { ReactDOM } from "react-dom";
+import { Provider } from "react-redux";
+
+
 const App = props => {
   const displayFavorites = true;
 
